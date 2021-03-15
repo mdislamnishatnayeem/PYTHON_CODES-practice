@@ -1,0 +1,8 @@
+spac=" "
+lov="Toi ekta Modon"
+i=1
+for h in range(50):
+	print(lov)
+	spac=spac+" "
+	print(spac+lov)
+	i=i+1
