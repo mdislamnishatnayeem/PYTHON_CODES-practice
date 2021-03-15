@@ -1,0 +1,14 @@
+spac=" "
+lov="Zaka Kobi"
+i=1
+for h in range(500):
+	print(lov ,i)
+	spac=spac+" "
+	print(spac+lov,i)
+	
+	i=i+1
+for h in range(500):      #oposite work of
+	print(lov,i)					#the above codes
+	spac=spac[:-1] # Remove the space 
+	print(spac+lov,i)#in every loop frome
+	i=i-1					#spac variable
