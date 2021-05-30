@@ -56,3 +56,63 @@ for i in squares:
 	print(squares[i])
 print(len(squares))
 print(sorted(squares))
+
+
+
+
+
+
+people = {1: {'name': 'Borhan', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Nahida', 'age': '22', 'sex': 'Female'}}
+ 
+print(people)
+
+people = {1: {'name': 'Borhan', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Nahida', 'age': '22', 'sex': 'Female'}}
+ 
+print(people[1]['name'])
+print(people[1]['age'])
+print(people[1]['sex'])
+
+
+people = {1: {'name': 'John', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Marie', 'age': '22', 'sex': 'Female'}}
+ 
+people[3] = {}
+ 
+people[3]['name'] = 'Farhana'
+people[3]['age'] = '24'
+people[3]['sex'] = 'Female'
+people[3]['married'] = 'No'
+
+
+
+people = {1: {'name': 'Borhan', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Moumita', 'age': '22', 'sex': 'Female'},
+          3: {'name': 'Farhana', 'age': '24', 'sex': 'Female', 'married': 'No'}}
+ 
+people[4] = {'name': 'Polash', 'age': '29', 'sex': 'Male', 'married': 'Yes'}
+print(people[4])
+
+
+
+people = {1: {'name': 'Borhan', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Farhana', 'age': '22', 'sex': 'Female'},
+          3: {'name': 'Moumita', 'age': '24', 'sex': 'Female', 'married': 'No'},
+          4: {'name': 'Polash', 'age': '29', 'sex': 'Male', 'married': 'Yes'}}
+ 
+del people[3]['married']
+del people[4]['married']
+ 
+print(people[3])
+print(people[4])
+
+
+
+people = {1: {'name': 'Borhan', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Farhana', 'age': '22', 'sex': 'Female'},
+          3: {'name': 'Moumita', 'age': '24', 'sex': 'Female'},
+          4: {'name': 'Peter', 'age': '29', 'sex': 'Male'}}
+ 
+del people[3], people[4]
+print(people)
