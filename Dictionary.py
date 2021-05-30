@@ -32,3 +32,16 @@ keys={'a','e','i','o','u'}
 vowels=dict.fromkeys(keys)
 print(vowels)
 
+
+
+
+squares={}
+for i in range(6):
+	squares[i]=i*i
+print(squares)
+
+squares={i:i*i for i in range(100)}
+print(squares)
+
+squares={i:i*i for i in range(100) if(i%2==1)}
+print(squares)
