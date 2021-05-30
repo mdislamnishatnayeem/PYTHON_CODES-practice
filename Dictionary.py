@@ -45,3 +45,14 @@ print(squares)
 
 squares={i:i*i for i in range(100) if(i%2==1)}
 print(squares)
+
+
+
+squares={1:1,3:9,5:25,7:49,9:81}
+print(1 in squares)
+print(2 not in squares)
+
+for i in squares:
+	print(squares[i])
+print(len(squares))
+print(sorted(squares))
