@@ -15,3 +15,20 @@ print(my_result)
 # popitem diye random item remove korchi ami nijeo jani na konta remove hoye jabe
 print(my_result.popitem())
 print(my_result)
+
+
+
+person={'name':'Masud Alam','age':22,'Salary':3500.0}
+print(person.keys())
+print(person.items())
+
+squares={1:1,2:4,3:9,4:16,5:25}
+print(squares.clear())
+del squares
+print(squares)
+
+
+keys={'a','e','i','o','u'}
+vowels=dict.fromkeys(keys)
+print(vowels)
+
