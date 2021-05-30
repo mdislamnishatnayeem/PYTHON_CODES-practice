@@ -116,3 +116,19 @@ people = {1: {'name': 'Borhan', 'age': '27', 'sex': 'Male'},
  
 del people[3], people[4]
 print(people)
+
+
+
+
+
+people = {1: {'Name': 'Jahir', 'Age': '27', 'Sex': 'Male'},
+          2: {'Name': 'Moumita', 'Age': '22', 'Sex': 'Female'}}
+ 
+for p_id, p_info in people.items():
+    print("\nPerson ID:", p_id)
+     
+    for key in p_info:
+    	print(key+':',p_info[key])
+    	
+a={3:45,6:677,6:78}
+print(a.items())
